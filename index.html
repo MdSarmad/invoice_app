@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./src/style.css">
+    <script src="./src/script.js" defer></script>
+    <title>skywalkers</title>
+</head>
+<body>
+    <header class="invoice-header">
+        <div class="invoice-header-left">[ INVOICE LOGO ]</div>
+        <div class="back"><a href="./front.html"><button>HOME</button></a></div>
+        <div class="invoice-header-right">
+            <div class="invoice-header-right-name">Mr. Bean</div>
+            <div class="invoice-header-right-contact">9876543210</div>
+            <div class="invoice-header-right-email">bean@gmail.com</div>
+        </div>
+    </header>
+    <div class="invoice-container">
+        <div class="invoice-container-left">
+            <div class="header-title">Customer Details</div>
+            <form action="" class="customer-info">
+
+                <div class="title">Customer Name</div>
+
+                <div class="name">
+                    <div class="fname">
+                        <label for="fname">First Name:</label>
+                        <input type="text" name="fname" id="fname">
+                    </div>
+                    <div class="lname">
+                        <label for="lname">Last Name:</label>
+                        <input type="text" name="lname" id="lname">
+                    </div>
+                </div>
+
+                <div class="title">Customer Information</div>
+
+                <div class="cust-info">
+                    <div class="mob">
+                        <label for="mob">Mob:</label>
+                        <input type="number" name="mob" id="mob">
+                    </div>
+                    <div class="email">
+                        <label for="email">Email:</label>
+                        <input type="email" name="email" id="email">
+                    </div>
+                </div>
+
+                <div class="note">
+                    <div class="title">How To Pay</div>
+                    <textarea name="note" id="note" cols="30" rows="10"></textarea>
+                </div>
+                
+            </form>
+        </div>
+        <div class="invoice-container-right">
+            <div class="header-title">BILL</div>
+            <div class="invoice-container-right-header">
+                <div class="item-no">#No</div>
+                <div class="item-name">Item Name</div>
+                <div class="item-price">Price</div>
+                <div class="item-quantity">Quantity</div>
+                <div class="item-amount">Amount</div>
+                <div class="add-itme">Add</div>
+            </div>
+            <div class="invoice-container-right-body">
+                
+            </div>
+            <div class="invoice-container-right-footer">
+                <div class="show-amount">
+                    <div class="total">Total Amount</div>
+                <div class="item-amount">
+                    <span class="inr">Rs.</span>
+                    <span class="money">00</span>
+                </div>
+                </div>
+                <div class="functionality">
+                    <button class="print">Print</button>
+                    <button class="send">Send</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <footer class="invoice-footer">
+        <div class="invoice-footer-item1">item1</div>
+        <div class="invoice-footer-item2">item2</div>
+        <div class="invoice-footer-item3">item3</div>
+    </footer>
+</body>
+</html>

@@ -1,0 +1,113 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: floralwhite;
+}
+
+.invoice-header{
+    /* background-color: gold; */
+    height: 7vh;
+    display: flex;
+    justify-content: space-between;
+    padding: 2vh 2vh;
+}
+
+.invoice-container{
+    background-color: gray;
+    height: 74vh;
+    margin: 2vh 5vh;
+    border-radius: 1vh;
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.invoice-container-left{
+    /* position: relative; */
+    background-color: darksalmon;
+    width: 45%;
+    margin: 2vh 2vw;
+    height: 90%;
+    overflow: hidden;
+    overflow-y: auto;
+    overflow-x: ;
+
+}
+
+.header-title {
+    font-size: 3vw;
+    text-align: center;
+    text-decoration: underline;
+}
+
+.title{
+    font-size: 2vw;
+    margin: 1vh 0vw;
+    text-align: center;
+}
+
+.name{
+}
+
+.cust-info{
+    display: flex;
+    justify-content: space-around;
+}
+
+
+.invoice-container-right{
+    background-color: darksalmon;
+    width: 45%;
+    margin: 2vh 2vw;
+    height: 90%;
+    overflow: hidden;
+    overflow-y: auto;
+    overflow-x: ;
+
+}
+
+.invoice-container-right-header {
+    text-decoration: underline;
+    /* background: cyan; */
+    height: 7vh;
+    display: grid;
+    grid-template-columns: 1fr 2fr 1fr 1fr 1fr 1fr;
+    align-items: center;
+    position:sticky;
+
+}
+
+.invoice-container-right-body {
+    background: cyan;
+    height: 60%;
+    overflow: hidden;
+    overflow-y: auto;
+}
+
+.show-amount {
+    display: flex;
+    justify-content: space-between;
+    margin:2vh 3vw;
+}
+
+.functionality{
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 3vw;
+}
+
+.invoice-footer{
+    /* background-color: gold; */
+    height: 7vh;
+    padding: 2vh 2vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.invoice-footer-item2, .invoice-footer-item3 {
+    margin-left: 1vw;
+}
