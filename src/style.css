@@ -24,16 +24,24 @@ body{
     justify-content: space-between;
 }
 
+.home-button{
+    width: 100px;
+    height: 40px;
+    border-radius: 15px;
+    font-size: 1.3em;
+    color: #000;
+    border: 2px solid rgba(84, 81, 228, 0);
+    outline: none;
+}
 
 .invoice-container-left{
     /* position: relative; */
     background-color: darksalmon;
     width: 45%;
     margin: 2vh 2vw;
-    height: 90%;
+    height: 94%;
     overflow: hidden;
     overflow-y: auto;
-    overflow-x: ;
 
 }
 
@@ -44,25 +52,105 @@ body{
 }
 
 .title{
-    font-size: 2vw;
+    font-size: 1.5vw;
     margin: 1vh 0vw;
     text-align: center;
 }
 
 .name{
-}
-
-.cust-info{
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
 }
 
+.fname, .lname, .email, .address, .mob, .pin {
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    font-size: 1.5vw;
+    margin-left: 1.5vw;
+    margin-right: 1.5vw;
+}
+.fname input{
+    height:3vh;
+    width: 10vw;
+    font-size: 1.2vw;
+    align-items: center;
+    outline: none;
+    margin-left: 1vw;
+}
+
+.lname input{
+    height:3vh;
+    width: 10vw;
+    font-size: 1.2vw;
+    align-items: center;
+    outline: none;
+    margin-left: 1vw;
+
+}
+
+.cust-info1{
+    display: flex;
+    justify-content: space-between;
+}
+.cust-info2{
+    margin-top: 2vh;
+    display: flex;
+    justify-content: space-between;
+}
+
+.mob input{
+    height:3vh;
+    width: 10vw;
+    font-size: 1.2vw;
+    align-items: center;
+    outline: none;
+    margin-left: 1vw;
+
+}
+
+.email input{
+    height:3vh;
+    width: 12vw;
+    font-size: 1.2vw;
+    align-items: center;
+    outline: none;
+    margin-left: 1.5vw;
+}
+
+
+.address input{
+    height:3vh;
+    width: 12vw;
+    font-size: 1.2vw;
+    align-items: center;
+    outline: none;
+    margin-left: 2vw;
+
+}
+
+
+.pin input{
+    height:3vh;
+    width: 10vw;
+    font-size: 1.2vw;
+    align-items: center;
+    outline: none;
+    margin-left: 0.5vw;
+
+}
+.text-area{
+    width: 90%;
+    margin-left: 2vw;
+    height: 20vh;
+    
+}
 
 .invoice-container-right{
     background-color: darksalmon;
     width: 45%;
     margin: 2vh 2vw;
-    height: 90%;
+    height: 94%;
     overflow: hidden;
     overflow-y: auto;
     overflow-x: ;
@@ -80,11 +168,71 @@ body{
 
 }
 
+.item-no, .item-name, .item-price, .item-quantity, .item-amount, .add-itme{
+    font-size: 2vw;
+    margin-right: 10px;
+    margin-left: 5px;
+}
+
 .invoice-container-right-body {
     background: cyan;
     height: 60%;
     overflow: hidden;
     overflow-y: auto;
+    text-decoration: underline;
+    height: 7vh;
+    display: grid;
+    grid-template-columns: 1fr 2fr 1fr 1fr 1fr 1fr;
+    align-items: center;
+    position:sticky;
+    display: flex;
+    justify-content: space-between;
+}
+
+.item-no-input{
+    font-size: 2vw;
+    margin-left: 20px;
+}
+.item-input-name{
+    height: 27px;
+    width: 120px;
+    margin-left: 10px;
+    font-size: 1vw;
+    border: 1.5px solid ;
+    outline: none;
+}
+.item-input-price{
+    height: 25px;
+    width: 70px;
+    font-size: 1vw;
+    border: 1.5px solid ;
+    outline: none;
+}
+.item-input-quantity{
+    height: 25px;
+    width: 70px;
+    font-size: 1vw;
+    border: 1.5px solid ;
+    outline: none;
+}
+.item-input-amount{
+    height: 25px;
+    width: 70px;
+    font-size: 1vw;
+    border: 1.5px solid ;
+    outline: none;
+}
+
+.item-input-add{
+    height: 25px;
+    width: 70px;
+    font-size: 1vw;
+}
+.add-time-button{
+    height: 30px;
+    width: 50px;
+    border-radius: 7px;
+    margin-right:10px;
 }
 
 .show-amount {
@@ -97,6 +245,46 @@ body{
     display: flex;
     justify-content: flex-end;
     margin-right: 3vw;
+}
+
+.total{
+    font-size: 1.5vw;
+}
+.inr{
+    font-size: 1.5vw;
+}
+.money{
+    font-size: 1.5vw;
+}
+.save{
+    margin-right: 30px;
+    height: 30px;
+    width: 75px;
+    border-radius: 5px; 
+    font-size: 1.3em;
+    color: #000;
+    border: 2px solid rgba(84, 81, 228, 0);
+    outline: none;
+}
+
+.print{
+    margin-right: 30px;
+    height: 30px;
+    width: 75px;
+    border-radius: 5px;
+    font-size: 1.3em;
+    color: #000;
+    border: 2px solid rgba(84, 81, 228, 0);
+    outline: none;
+}
+.send{
+    height: 30px;
+    width: 75px;
+    border-radius: 5px;
+    font-size: 1.3em;
+    color: #000;
+    border: 2px solid rgba(84, 81, 228, 0);
+    outline: none;
 }
 
 .invoice-footer{
