@@ -174,7 +174,7 @@ body{
     margin-left: 5px;
 } */
 
-.invoice-container-right-body {
+.invoice-container-right-body-row {
     width: 100%;
     background: cyan;
     height: 60%;
