@@ -168,13 +168,14 @@ body{
 
 }
 
-.item-no, .item-name, .item-price, .item-quantity, .item-amount, .add-itme{
+/* .item-no, .item-name, .item-price, .item-quantity, .item-amount, .add-item{
     font-size: 2vw;
     margin-right: 10px;
     margin-left: 5px;
-}
+} */
 
 .invoice-container-right-body {
+    width: 100%;
     background: cyan;
     height: 60%;
     overflow: hidden;
@@ -184,12 +185,10 @@ body{
     display: grid;
     grid-template-columns: 1fr 2fr 1fr 1fr 1fr 1fr;
     align-items: center;
-    position:sticky;
-    display: flex;
-    justify-content: space-between;
+    
 }
 
-.item-no-input{
+/* .item-no-input{
     font-size: 2vw;
     margin-left: 20px;
 }
@@ -228,12 +227,12 @@ body{
     width: 70px;
     font-size: 1vw;
 }
-.add-time-button{
+.add-item-button{
     height: 30px;
     width: 50px;
     border-radius: 7px;
     margin-right:10px;
-}
+} */
 
 .show-amount {
     display: flex;
